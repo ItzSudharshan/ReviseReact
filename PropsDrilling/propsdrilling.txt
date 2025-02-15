@@ -1,0 +1,6 @@
+props Drilling ?
+
+The Main Reason we are studying concept of Props Drilling is because to know Why we are using Libraries like Redux
+Props Drilling is when you pass the data from the parent to the child and then from the child to another child. The main issue here is there is code redundancy and your code becomes more messy and messy . So inorder to Avoid this we use the State management Libraries such as Redux or Context API . 
+
+-------------------------------------------------------------------------------------------------------------------------------------------

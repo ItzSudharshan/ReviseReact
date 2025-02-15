@@ -1,0 +1,14 @@
+Redux : Redux is a Centralized State Management Library. Redux is a JavaScript library used to manage state in your app. It acts as a central storage room where all your app's data is kept, making it easy for different parts of your app to access and update data without passing it around through props.
+---------------------------------------------------------------------------------------------------------------------------------
+Store : Store will hold entire state of App. The store is the central place where all your state is kept. It’s like the library that stores all the books (data).
+---------------------------------------------------------------------------------------------------------------------------------
+Action : Decribes what happens (Eg: User Logged in ) . Actions are like messengers. They describe what you want to do, like updating user information or adding an item to a cart. An action is just a plain JavaScript object with a type and sometimes some extra data.
+---------------------------------------------------------------------------------------------------------------------------------
+Reducer : A function that updates a state based on Action . Accepts 2 values state and action 
+---------------------------------------------------------------------------------------------------------------------------------
+Dispatch : Send action to store to update state 
+---------------------------------------------------------------------------------------------------------------------------------
+useSelector : A hook to read Data from store , select which state u want to select.
+---------------------------------------------------------------------------------------------------------------------------------
+useDispatch : A hook to send Action to the state 
+---------------------------------------------------------------------------------------------------------------------------------

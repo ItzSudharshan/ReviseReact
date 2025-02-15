@@ -1,0 +1,20 @@
+Routing ?
+It is the process of navigating between Multiple components of the same single page application based on the URL without having to reload the pages. 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Interviewer: Why is routing important for a React application?
+Ideal Answer: Routing is important because it makes an app easy to use by allowing users to move between different sections. Without routing, users would be stuck on one page, making the app confusing and less useful. With routing, users can explore various parts of the app, such as the homepage, About page, Contact page, or specific user profiles, enhancing the overall user experience.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Interviewer: What is React Router, and why is it commonly used in React applications?
+
+Ideal Answer: React Router is a library that helps add navigation to React applications. It provides tools to define routes, link to different pages, and display the appropriate components based on the URL. React Router acts like a traffic controller, guiding users to the right path and showing the correct content for each route. It is popular because it is easy to use, has strong community support, and creates clean URLs that improve SEO.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Interviewer: Explain the key components of React Router and their roles.
+
+Ideal Answer: The key components of React Router are:
+
+BrowserRouter: The wrapper that provides routing capabilities for the app.
+Route: Defines specific paths and displays the appropriate components for each path.
+Link: Works like an anchor tag but allows navigation without refreshing the page, making the app faster and smoother.
+-------------------------------------------------------------------------------------------------------------------------------------------------

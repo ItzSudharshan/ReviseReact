@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+button{
+    padding: 7px;
+    font-size: larger;
+    border-color: blue;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-width: 4px;
+    background-color: blanchedalmond;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 9px;
+}

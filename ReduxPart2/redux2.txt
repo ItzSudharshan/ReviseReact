@@ -1,0 +1,13 @@
+Note : If export 'Default' isnt there always use {} when importing 
+---------------------------------------------------------------------------------------------------------------------------------
+Why to use Provider ?
+
+The Provider tag is used in React to pass down data to all the components in your app without having to pass props manually at every level. It's super useful for managing global state.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+use of createStre in react
+createStore is a function in Redux that helps you create a Redux store to hold your application's state. It's like a central place where you can keep and manage all your data.
+
+-----------------------------------------------------------------------------------------------------------------------------------

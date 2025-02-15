@@ -1,0 +1,26 @@
+What is State?
+Definition: In React, state is special data that a component manages internally and can change over time. State allows components to be interactive. Unlike props, which are passed into a component by its parent, state is managed inside the component and is updated based on what the user does.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Why is State Important?
+State makes components dynamic. Imagine using an app where nothing ever changes—it would be boring! State makes apps interactive and interesting. For example, state can track whether a button was clicked or if items in a list were added or removed.
+
+When state changes, React automatically updates the screen. This means you don't have to manually refresh the UI; React does it for you.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Steps to Use State in a Component
+Define the State: Use the useState hook to define state in a functional component.
+A hook is a special function in React that lets you use state and other React features in functional components. Hooks make it easier to add features to your components without using complex code. The useState hook is one of the most commonly used hooks to manage state in React.
+
+Update the State: When an event happens (like a button click), update the state. React will then re-render the component with the updated state.
+
+Use the State: Use state to decide what should be displayed on the screen.
+
+Disadvantages 
+
+1) code redundancy even though some components dont need the data , data has to be passed through all the components 
+2) Let say you update the value in middle of some Component , data which is passed from the updated component is updated but the previous values before the update will not change 
+
+------------------------------------------------------------------------------------------------------------------------------------------------

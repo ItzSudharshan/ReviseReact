@@ -1,0 +1,27 @@
+Props (short for properties) are inputs you pass from one component to another to control its behavior or appearance. They allow data to pass from one part of your application to another, making your components more flexible and reusable.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+How Do Props Work?
+Props are passed from a parent component to a child component. They’re like the instructions you give to the child, telling it how to behave or what data to show.
+
+Here’s how it works:
+
+Define the Parent Component: The parent component holds the information or behavior you want to pass down.
+
+Pass Props to Child Component: You pass props by adding them as attributes to the child component tag.
+
+Access Props in the Child Component: The child component receives these props and uses them to decide how to render itself.
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Props make it easy to reuse components with small differences, keeping your code clean and reducing repetition.
+
+Props: Key Takeaways
+Props Make Components Reusable: Props let you create one component that behaves differently based on the data it receives. Instead of writing the same code multiple times, you use props to create variations without duplication.
+
+Read-Only: Props are read-only. This means that once you pass a prop to a component, it can use the value but cannot change it. For example, if you pass name="Alice", the component can display Alice but cannot modify it.
+
+Passed Down the Tree: Props always flow from parent to child. The parent component controls what data it gives to the child, making the application easier to manage.
+
+Use Props to Make Components Interactive: Props aren’t just for data—they can also pass functions. For example, you can pass an onClick handler to make a button interactive.
+
+------------------------------------------------------------------------------------------------------------------------------------------
