@@ -1,6 +1,7 @@
 React Components: Building Blocks for Amazing Apps!
 Definitions
-In React, components are like the building blocks of your application. A React component is a reusable piece of UI that accepts props and returns a React element that describes how a part of the user interface should appear.
+In React, components are like the building blocks of your application. A React component is a reusable piece of UI that accepts props and 
+returns a React element that describes how a part of the user interface should appear.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 There are 2 Types of Components 
 1) Class Component
@@ -35,5 +36,6 @@ export default Welcome;
 Key Points
 Reusability: Components can be reused across different parts of your application.
 Maintainability: Easier to update and manage your code.
-Separation of Concerns: Keeps your code organized by separating different parts of the application logically.
+Separation of Concerns: Keeps your code organized by separating different parts of the 
+application logically.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
